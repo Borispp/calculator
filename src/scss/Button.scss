@@ -1,0 +1,41 @@
+.btn {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  background: #f3efff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  outline: none;
+  box-sizing: border-box;
+  transition: background .2s;
+  
+  &:hover {
+    background: #ebe5ff;
+  }
+
+  &:active {
+    box-shadow: inset 1px 1px 3px 0 rgba(0,0,0,.05);
+    padding-top: 1px;
+  }
+  
+  &.darker {
+    background: #ede7fb;
+    
+    &:hover {
+      background: #e6def9;
+    }
+  }
+  
+  &.blue {
+    background: #1cbfff;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.1);
+    
+    &:hover {
+      background: #00b6fd;
+    }
+  }
+}
